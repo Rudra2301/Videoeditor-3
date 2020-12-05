@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282828"
+    android:orientation="vertical">
+
+
+    <!-- <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_margin="5dp"
+         android:layout_weight="1"
+         android:orientation="vertical">
+
+
+         <VideoView
+             android:id="@+id/videoView"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+
+
+         <org.florescu.android.rangeseekbar.RangeSeekBar
+             android:id="@+id/rangeSeekBar"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             app:showLabels="false"
+             rsb:activeColor="#ED1C24"
+             rsb:textAboveThumbsColor="#000000" />
+
+         <TextView
+             android:id="@+id/tvLeft"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignLeft="@+id/rangeSeekBar"
+             android:layout_alignParentBottom="true"
+             android:layout_gravity="bottom|start"
+             android:textColor="#000000" />
+
+         <TextView
+             android:id="@+id/tvRight"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignRight="@+id/rangeSeekBar"
+             android:layout_gravity="bottom|end"
+             android:textColor="#000000" />
+
+     </RelativeLayout>
+ -->
+
+    <!-- <LinearLayout
+         android:id="@+id/editor_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="0.01"
+         android:orientation="horizontal">-->
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/option"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border" />
+
+
+    <!--  </LinearLayout>-->
+
+
+</LinearLayout>

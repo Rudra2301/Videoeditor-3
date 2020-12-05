@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#282828"
+    tools:context="com.example.enix.videoeditor.Pick_video">
+
+
+    <Button
+        android:id="@+id/crop_video"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@drawable/video_editor_selector" />
+
+    <Button
+        android:id="@+id/blur_video"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@drawable/gif_selector" />
+
+    <Button
+        android:id="@+id/mp3_converter"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+       android:background="@drawable/mp3_selector" />
+
+
+    <Button
+        android:id="@+id/mixaudvid"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@drawable/image_selector"/>
+
+    <Button
+        android:id="@+id/rate_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rate_selector"/>
+
+
+</LinearLayout>

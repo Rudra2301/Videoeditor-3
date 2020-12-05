@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Video Editor</string>
+    <string name="dialogMessage">The process will take some time.Please be patient.</string>
+    <string name="preview">Preview for 3 second</string>
+    <string name="mute">Are you sure You want Mute video!</string>
+    <string name="convertmp3">ConvertMP3</string>
+
+    <string-array name="frame_size_values">
+        <item>640 x 480</item>
+        <item>1024 x 768</item>
+        <item>1280 x 720</item>
+    </string-array>
+
+    <!-- for videoBitRate_spinner -->
+    <string-array name="video_bit_rate_values">
+        <item>5000</item>
+        <item>4000</item>
+        <item>3000</item>
+        <item>2000</item>
+        <item>1000</item>
+    </string-array>
+
+</resources>
