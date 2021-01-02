@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/toolbar"
     style="@style/ThemeOverlay.AppCompat.Light"
     android:layout_width="match_parent"
@@ -21,7 +21,8 @@
 
             <ImageButton
                 android:id="@+id/btn_back"
-                android:layout_gravity="start"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:background="@drawable/onback_selector"
@@ -34,6 +35,8 @@
             android:id="@+id/toolbar_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="75dp"
             android:layout_gravity="center"
             android:text="Crop Video"
             android:textColor="#ffffff"
@@ -47,7 +50,8 @@
             android:id="@+id/create_done"
             android:layout_width="35dp"
             android:layout_height="35dp"
-            android:layout_gravity="end"
+            android:layout_marginLeft="80dp"
+            android:layout_gravity="center"
             android:background="@drawable/done_selector" />
 
         <ImageButton
@@ -59,4 +63,4 @@
             android:visibility="gone" />
 
 
-</android.support.v7.widget.Toolbar>
+</LinearLayout>
